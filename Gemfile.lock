@@ -1,0 +1,35 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    erubis (2.7.0)
+    kgio (2.11.0)
+    mustermann (1.0.1)
+    mysql2 (0.4.9)
+    mysql2-cs-bind (0.0.6)
+      mysql2
+    rack (2.0.3)
+    rack-protection (2.0.0)
+      rack
+    raindrops (0.19.0)
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
+    tilt (2.0.8)
+    unicorn (5.3.1)
+      kgio (~> 2.6)
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  erubis
+  mysql2
+  mysql2-cs-bind
+  sinatra
+  unicorn
+
+BUNDLED WITH
+   1.15.4
